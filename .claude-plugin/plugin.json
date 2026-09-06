@@ -3,6 +3,6 @@
   "description": "Fully local audio/video transcription with speaker diarization and structured memo. Apple Silicon, no API keys, no tokens. Russian-tuned, works for English too.",
   "version": "1.0.0",
   "author": {
-    "name": "Anton Kopylov"
+    "name": "Rainary"
   }
 }

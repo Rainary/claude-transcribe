@@ -3,7 +3,7 @@
 
 Usage:
     diarize.py <media_file> <run_dir>
-    diarize.py --rename "SPEAKER_00=Антон,SPEAKER_01=Мария" <run_dir>
+    diarize.py --rename "SPEAKER_00=Алиса,SPEAKER_01=Мария" <run_dir>
 
 Первый вызов: прогоняет senko по аудио, сопоставляет спикеров с сегментами
 из <run_dir>/segments.json по пересечению интервалов, пишет:
@@ -157,7 +157,7 @@ def main():
     p.add_argument("media_file", nargs="?", help="исходный аудио/видео файл")
     p.add_argument("run_dir", help="папка запуска transcribe.py")
     p.add_argument("--rename", default=None,
-                   help='карта имён: "SPEAKER_00=Антон,SPEAKER_01=Мария"')
+                   help='карта имён: "SPEAKER_00=Алиса,SPEAKER_01=Мария"')
     args = p.parse_args()
 
     run_dir = os.path.abspath(args.run_dir)

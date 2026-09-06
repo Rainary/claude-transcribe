@@ -128,7 +128,7 @@ senko лишь подтвердит одного спикера, а на дли�
 вручную:
 
 ```bash
-"$PY" "$SKILL/diarize.py" --rename "SPEAKER_00=Антон,SPEAKER_01=Мария" "<папка_запуска>"
+"$PY" "$SKILL/diarize.py" --rename "SPEAKER_00=Алиса,SPEAKER_01=Мария" "<папка_запуска>"
 ```
 
 ---

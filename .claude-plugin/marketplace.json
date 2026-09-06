@@ -3,7 +3,7 @@
   "name": "claude-transcribe",
   "description": "Fully local transcription for Claude Code: audio/video to transcript, speakers and structured memo on Apple Silicon.",
   "owner": {
-    "name": "Anton Kopylov"
+    "name": "Rainary"
   },
   "plugins": [
     {
