@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Bundled from https://github.com/beaverbeard/milchin
+# Copyright (c) 2026 Rodion Scryabin (beaverbeard), MIT — see LICENSE-milchin
 """milchin.py — детерминированная типографика и юникод-гигиена русского текста.
 
 Скрипт-«типограф». Чистый Python 3 stdlib (re, unicodedata, sys, argparse) —

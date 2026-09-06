@@ -123,7 +123,13 @@ curl -fsSL https://raw.githubusercontent.com/Rainary/claude-transcribe/main/inst
 [senko](https://github.com/narcotic-sh/senko) ·
 [OpenAI Whisper](https://github.com/openai/whisper)
 
-Типограф milchin — часть авторского набора редакторских скиллов автора.
+Редакторская часть стоит на плечах скиллов Родиона Скрябина
+([beaverbeard](https://github.com/beaverbeard)): типограф —
+встроенная копия его [milchin](https://github.com/beaverbeard/milchin)
+(MIT, см. [LICENSE-milchin](LICENSE-milchin)), а правила текста мемо —
+выжимка по мотивам [slopotron](https://github.com/beaverbeard/slopotron)
+и [chukovsky](https://github.com/beaverbeard/chukovsky). Загляни в его
+профиль — там целая полка редакторских скиллов для русского текста.
 
 ## Лицензия
 

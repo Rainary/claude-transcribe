@@ -126,7 +126,12 @@ hallucinations dropped), `segments.json`, `transcript.txt` and
 [senko](https://github.com/narcotic-sh/senko) ·
 [OpenAI Whisper](https://github.com/openai/whisper)
 
-The milchin typographer is part of the author's editorial skill set.
+The editorial layer stands on the shoulders of Rodion Scryabin's
+([beaverbeard](https://github.com/beaverbeard)) skills: the typography pass
+is a bundled copy of his [milchin](https://github.com/beaverbeard/milchin)
+(MIT, see [LICENSE-milchin](LICENSE-milchin)), and the memo style rules are
+distilled from his [slopotron](https://github.com/beaverbeard/slopotron)
+and [chukovsky](https://github.com/beaverbeard/chukovsky).
 
 ## License
 
