@@ -1,0 +1,22 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "claude-transcribe",
+  "description": "Fully local transcription for Claude Code: audio/video to transcript, speakers and structured memo on Apple Silicon.",
+  "owner": {
+    "name": "Anton Kopylov"
+  },
+  "plugins": [
+    {
+      "name": "transcribe",
+      "displayName": "Transcribe",
+      "source": {
+        "source": "github",
+        "repo": "Rainary/claude-transcribe",
+        "ref": "main"
+      },
+      "description": "Fully local audio/video transcription with speaker diarization and structured memo. Apple Silicon, no API keys, no tokens.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
