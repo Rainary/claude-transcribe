@@ -34,15 +34,13 @@ you is the speakers' names.
 
 ## Speed
 
-Measured on a MacBook M3 Pro / 18 GB, real recordings:
+Ballpark figures on an M-series laptop (real recordings, not synthetic):
 
-| Recording | Transcription | Diarization |
-|---|---|---|
-| 5:40 meeting (video, 2 speakers) | 20 s (×16 realtime) | 38 s |
-| 44:39 lecture (video, monologue) | 2:18 (×19) | not needed |
-
-The previous setup (large-v3, no VAD) ran at ×8.7 on the same files — the
-current configuration is roughly 2–3× faster with the same quality.
+- Transcription runs at ×15–20 realtime: an hour of audio takes 3–4 minutes,
+  a 40-minute lecture about two.
+- Diarizing an hour of audio takes under a minute.
+- The large-v3-without-VAD setup is 2–3× slower on the same files with the
+  same quality.
 
 The LLM never rewrites the transcript — all mechanical work is done by
 scripts, Claude only writes the memo. That's both speed and token economy.
